@@ -5,7 +5,9 @@
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.2.0"
   },
-  "scripts": {},
+  "scripts": {
+    "cz": "git-cz"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
