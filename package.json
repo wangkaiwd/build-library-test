@@ -12,7 +12,7 @@
     }
   },
   "gitHooks": {
-    "commit-msg": "echo 'hello' && node scripts/verify-commit-msg.js"
+    "commit-msg": "node scripts/verify-commit-msg.js"
   },
   "dependencies": {
     "chalk": "^2.4.2",
